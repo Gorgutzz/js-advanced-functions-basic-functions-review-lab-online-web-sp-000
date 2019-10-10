@@ -35,6 +35,6 @@ function actionApplyer(integer, array){
     array.forEach(funct => {
       integer = function(integer)
     })
-    return int
+    return integer
   }
 }
