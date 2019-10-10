@@ -12,3 +12,12 @@ function wrapAdjective(asterix = "*"){
     return `You are ${asterix}${param}${asterix}!`
   }
 }
+
+const Calculator = {
+  add: () => {
+    return 1 + 3
+  },
+  subtract: () => 1-3,
+  multiply: () => 1 * 3,
+  divide: () => 10 / 5
+}
