@@ -27,3 +27,12 @@ const Calculator = {
     return 10 / 5;
   }
 }
+
+function actionApplyer(integer, array) {
+  if (array.length === 0) {
+    return integer
+  } else {
+    let newInt = array.shift()(integer)
+    return actionApplyer(newInt, array)
+  }
+}
