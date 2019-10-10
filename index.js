@@ -33,7 +33,7 @@ function actionApplyer(integer, arrayOfFunctions){
     return integer
   } else {
     arrayOfFunctions.forEach(funct => {
-      integer = funct(integer)
+      integer = function(integer)
     })
     return int
   }
