@@ -28,13 +28,13 @@ const Calculator = {
   }
 }
 
-function actionApplyer(integer, array){
-  if (array.length === 0 ){
-    return integer
+function actionApplyer(int, arrayOfFunctions){
+  if (arrayOfFunctions.length === 0 ){
+    return int
   } else {
-    array.forEach(function => {
-      integer = function(integer)
+    arrayOfFunctions.forEach(funct => {
+      int = funct(int)
     })
-    return integer
+    return int
   }
 }
