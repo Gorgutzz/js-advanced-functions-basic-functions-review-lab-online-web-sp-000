@@ -32,7 +32,7 @@ function actionApplyer(integer, array){
   if (array.length === 0 ){
     return integer
   } else {
-    array.forEach(funct => {
+    array.forEach(function => {
       integer = function(integer)
     })
     return integer
